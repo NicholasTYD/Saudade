@@ -9,6 +9,8 @@ This web application was developed as the Capstone project for the "CS50’s Web
 
 Saudade is built using Django REST Framework as the backend, and ReactJS as the frontend. HTML, CSS JavaScript and Python were also used where applicable.
 
+You may view a demostration of the application's functionality [here](https://www.youtube.com/watch?v=94nXDkZkNak).
+
 ## Distinctiveness and Complexity
 
 ### Distinctiveness
