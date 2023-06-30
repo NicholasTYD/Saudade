@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(217deg, #333446, rgb(40, 40, 40) 70.71%),
+                linear-gradient(336deg, #333446, rgb(40, 40, 40));
+    background-attachment: fixed;
+    padding-top: 55px;
+}
+
+* {
+    color: white;
+}
+
+a, a:hover {
+    color: rgb(39, 176, 255);
+}
+
+.hero-text {
+    font-size: 750%;
+}
+
+.container-normal {
+    background-color: rgba(32, 32, 32, 0.5);
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgb(150, 150, 150);
+}
+
+.welcome-text {
+    font-size: 400%;
+}
+
+.fadeIn {
+    animation: fadeInHelper 1s ease-out;
+}
+
+@keyframes fadeInHelper {
+    from {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.preview-image {
+    max-width: 80vw;
+    max-height: 70vh;
+}
+
+.fastFadeOut {
+    animation: fastFadeOutHelper 0.3s ease-in;
+}
+
+@keyframes fastFadeOutHelper {
+    from {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+}
+
+.fadeInCreateNewDream {
+    animation: fadeInCreateNewDreamHelper 1s ease-out;
+}
+
+@keyframes fadeInCreateNewDreamHelper {
+    from {
+        opacity: 0;
+        transform: translateY(-2%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.dream-entry:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 1px white;
+}
+
+.modal-border {
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 0 0 5px rgb(120, 120, 120);
+}
+
+.bigger-size {
+    transform: scale(1.2);
+}
+
+.disable-overflow-x {
+    overflow-x: hidden;
+}
+
+.disable-overflow-y {
+    overflow-y: hidden;
+}

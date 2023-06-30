@@ -1,0 +1,1 @@
+Star rating system acquired from https://codepen.io/hesguru/pen/BaybqXv
